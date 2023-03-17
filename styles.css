@@ -1,0 +1,15 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    color: rgb(84, 84, 228);
+  align-content: center;
+}
+
+.personajes {
+    display: flex;
+    width: 140px;
+    height: 150px;
+    align-content: center;
+}

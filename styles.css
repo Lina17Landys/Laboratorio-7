@@ -1,18 +1,35 @@
-
 body {
     display: flex;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
 }
 
 h3 {
+    display: flex;
     color: rgb(84, 84, 228);
-  align-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .personajes {
+    width: 300px;
+    padding: 16px;
+    border-radius: 50px;
+    margin: auto;
+    align-items: center;
+    position: relative;
     display: flex;
-    width: 140px;
-    height: 150px;
-    align-content: center;
+    
 }
 
+.personajes-personaje {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    width: 300px;
+    padding: 16px;
+    border-radius: 50px;
+    margin: auto;
+    border: 2px solid rgb(84, 84, 228);
+}
